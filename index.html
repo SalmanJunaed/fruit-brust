@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container">
+    <header class=" ml-8 md:ml-4 lg:ml-16">
+        <nav>
+            <div class="navbar bg-base-100 rounded-3xl md:bg-red-400">
+                <!-- Nav Start part -->
+                <div class="navbar-start">
+                    <ul class="menu menu-horizontal px-1 hidden lg:flex">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                    <a class=" md:invisible btn btn-ghost normal-case text-xl ">daisyUI</a>
+                </div>
+                <!-- Nav Middle part -->
+                <div class="navbar-center ">
+                    <a class="btn btn-ghost normal-case text-xl hidden sm:block">daisyUI</a>
+                </div>
+                <!-- Nav End part -->
+                <div class="navbar-end">
+                    <!-- Nav search bar -->
+                    <div class="relative hidden sm:block form-control ">
+                        <input type="text" placeholder="Search" class="input input-bordered w-24 z-10 cursor-pointer rounded-3xl md:w-auto" />
+                        <div class="absolute inset-y-0 my-auto pt-4 pl-44">
+                            <svg xmlns="http://www.w3.org/2000/svg" class=" h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        </div>
+                        
+                    </div>
+                    <!-- Nav drop down for mid and small size -->
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
