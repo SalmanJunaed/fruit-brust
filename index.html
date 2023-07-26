@@ -30,18 +30,18 @@
     </script>
 
 </head>
-<body class="container font-lato">
+<body class="container font-lato w-[1240]">
     <header>
         <!-- Nav bar -->
-        <nav class=" mt-5 ml-8 md:ml-4 lg:ml-16">
-            <div class="navbar bg-base-100 md:bg-[#F85559] rounded-full md:text-white">
+        <nav class=" mt-5 ml-8 md:ml-4 lg:ml-12">
+            <div class="navbar bg-base-100 md:bg-[#F85559] rounded-full md:text-white pl-16">
                 <!-- Nav Start part -->
-                <div class="navbar-start">
-                    <ul class="menu menu-horizontal px-1 hidden lg:flex">
+                <div class="navbar-start -ml-16">
+                    <ul class="menu menu-horizontal hidden lg:flex lg:flex-1">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
+                        <li><a>All fruits</a></li>
                     </ul>
                         <img src="images/logo.png" class="md:invisible" alt="">
                     <a class=" md:invisible btn btn-ghost normal-case text-xl ">Fruit Burst</a>
@@ -84,7 +84,7 @@
                     <div class="relative">
                         <div class="absolute lg:mt-20 lg:mx-96 pl-16">
                             <h2 class="lg:text-6xl text-3xl font-extrabold  text-center">Exotic tastes at your <br>doorstep</h1>
-                            <p class="lg:ml-24 lg:mt-4">We supply highly quality organic products</p>
+                            <p class="lg:ml-24 lg:mt-2">We supply highly quality organic products</p>
                             <button class="btn border-none bg-[#F85559] lg:ml-44 ml-24 text-white">Shop Now</button>
                         </div>
                         <img src="/images/banner1.png" class="w-full" />
@@ -99,7 +99,7 @@
                     <div class="relative">
                         <div class="absolute lg:mt-20 lg:mx-96 pl-16">
                             <h2 class="lg:text-6xl text-3xl font-extrabold  text-center">Exotic tastes at your <br>doorstep</h1>
-                            <p class="lg:ml-24 lg:mt-4">We supply highly quality organic products</p>
+                            <p class="lg:ml-24 lg:mt-2">We supply highly quality organic products</p>
                             <button class="btn border-none bg-[#F85559] lg:ml-44 ml-24 text-white">Shop Now</button>
                         </div>
                         <img src="/images/banner2.png" class="w-full" />
@@ -114,7 +114,7 @@
                     <div class="relative">
                         <div class="absolute lg:mt-20 lg:mx-96 pl-16">
                             <h2 class="lg:text-6xl text-3xl font-extrabold  text-center">Exotic tastes at your <br>doorstep</h1>
-                            <p class="lg:ml-24 lg:mt-4">We supply highly quality organic products</p>
+                            <p class="lg:ml-24 lg:mt-2">We supply highly quality organic products</p>
                             <button class="btn border-none bg-[#F85559] lg:ml-44 ml-24 text-white">Shop Now</button>
                         </div>
                         <img src="/images/banner3.png" class="w-full" />
@@ -129,7 +129,7 @@
                     <div class="relative">
                         <div class="absolute lg:mt-20 lg:mx-96 pl-16">
                             <h2 class="lg:text-6xl text-3xl font-extrabold  text-center">Exotic tastes at your <br>doorstep</h1>
-                            <p class="lg:ml-24 lg:mt-4">We supply highly quality organic products</p>
+                            <p class="lg:ml-24 lg:mt-2">We supply highly quality organic products</p>
                             <button class="btn border-none bg-[#F85559] lg:ml-44 ml-24 text-white">Shop Now</button>
                         </div>
                         <img src="/images/banner4.png" class="w-full" />
@@ -208,12 +208,11 @@
         </section>
         <!-- Fruits review and product price -->
         <section>
-            <div class="flex lg:flex-row flex-col w-full px-12">
-
+            <div class="flex lg:flex-row justify-between flex-col w-full gap-2 px-8 pl-24">
                 <!-- product card 1 -->
                 <div class=" ">
                     <div onclick="my_modal_1.showModal()">
-                        <div class="card w-80 bg-base-100 shadow-xl">
+                        <div class="card w-60 bg-base-100 shadow-xl">
                             <figure class="px-10 pt-10">
                                 <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
                             </figure>
@@ -264,7 +263,7 @@
                 <!-- product card 2 -->
                 <div>
                     <div onclick="my_modal_2.showModal()">
-                        <div class="card w-80 bg-base-100 shadow-xl">
+                        <div class="card w-60 bg-base-100 shadow-xl">
                             <figure class="px-10 pt-10">
                                 <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
                             </figure>
@@ -315,7 +314,7 @@
                 <!-- product card 3 -->
                 <div>
                     <div onclick="my_modal_3.showModal()">
-                        <div class="card w-80 bg-base-100 shadow-xl">
+                        <div class="card w-60 bg-base-100 shadow-xl">
                             <figure class="px-10 pt-10">
                                 <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
                             </figure>
@@ -366,7 +365,7 @@
                 <!-- product card 4 -->
                 <div>
                     <div onclick="my_modal_4.showModal()">
-                        <div class="card w-80 bg-base-100 shadow-xl">
+                        <div class="card w-60 bg-base-100 shadow-xl">
                             <figure class="px-10 pt-10">
                                 <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
                             </figure>
@@ -415,6 +414,9 @@
                     </dialog>
                 </div>
 
+            </div>
+            <div class="flex justify-center pt-12">
+                <button class="btn border-none bg-[#F85559] lg:ml-16 text-white">Shop Now</button>
             </div>
         </section>
     </main>
