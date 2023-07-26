@@ -31,9 +31,9 @@
 
 </head>
 <body class="container font-lato">
-    <header class=" mt-5 ml-8 md:ml-4 lg:ml-16">
+    <header>
         <!-- Nav bar -->
-        <nav>
+        <nav class=" mt-5 ml-8 md:ml-4 lg:ml-16">
             <div class="navbar bg-base-100 md:bg-[#F85559] rounded-full md:text-white">
                 <!-- Nav Start part -->
                 <div class="navbar-start">
@@ -76,8 +76,6 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <main>
         <!-- Slider Contents -->
         <section>
             <div class="carousel w-full ml-10 mt-10">
@@ -168,6 +166,9 @@
                 </div>
             </div>
         </section>
+    </header>
+    <main>
+        
         <!-- Offer deal -->
         <section class="w-full ml-10 mt-10 mb-14">
             <div class="flex flex-col lg:flex-row gap-12 justify-around">
@@ -177,35 +178,37 @@
                     <p class="w-80 lg:w-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- time counter  -->
-                <div>
-                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-8">
-                        <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:15;"></span>
-                            </span>
-                            days
-                        </div> 
-                        <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:10;"></span>
-                            </span>
-                            hours
-                        </div> 
-                        <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:24;"></span>
-                            </span>
-                            min
-                        </div> 
-                        <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:49;"></span>
-                            </span>
-                            sec
-                        </div>
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                        </span>
+                        days
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                        </span>
+                        hours
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                        </span>
+                        min
+                    </div> 
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-5xl">
+                            <span style="--value:49;"></span>
+                        </span>
+                        sec
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- Fruits review and product price -->
+        <section>
+
         </section>
     </main>
     <footer></footer>
